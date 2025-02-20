@@ -1,0 +1,82 @@
+
+
+.botao-calc{
+    width: 70px;  /* Aumentando a largura base */
+    height: 70px; /* Mantendo um formato quadrado maior */
+    font-size: 1.5em; /* Deixando os números mais visíveis */
+    background: #FFFFFF;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    margin: 5px;
+    text-align: center;
+    border: 1px solid #00000088;
+    padding: 10px;
+}
+
+
+button:hover {
+    background: #CCCCCC;
+}
+
+
+.flex-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.especial{
+    background-color: #f66126;
+}
+
+.especial:hover{
+    background-color: #f74e0b;
+}
+
+.centro{
+    margin: auto;  /* Centraliza horizontalmente */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centraliza verticalmente o conteúdo */
+    align-items: center;
+}
+
+.coluna {
+    width: auto;
+    min-width: 320px; /* Aumenta um pouco para acomodar os botões maiores */
+    background-color: rgba(68, 68, 68, 0.3);
+    padding: 20px; /* Mais espaço interno */
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.screen{
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    background: rgba(255,255,255,0.75);
+    border: rgba(255,255,255,0.01);
+    border-radius: 16px;
+    width: 94%;
+    background: #FFFFFFAA;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    padding: 40px;
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+    margin: 3px;
+    margin-bottom: 10px;
+    text-align: center;
+    border: 1px solid #00000088;
+}
