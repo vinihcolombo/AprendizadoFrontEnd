@@ -1,9 +1,9 @@
 
 
 .botao-calc{
-    width: 70px;  /* Aumentando a largura base */
-    height: 70px; /* Mantendo um formato quadrado maior */
-    font-size: 1.5em; /* Deixando os números mais visíveis */
+    width: 70px;  
+    height: 70px; 
+    font-size: 1.5em; 
     background: #FFFFFF;
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.1);
     border-radius: 15px;
@@ -40,18 +40,18 @@ button:hover {
 }
 
 .centro{
-    margin: auto;  /* Centraliza horizontalmente */
+    margin: auto;  
     display: flex;
     flex-direction: column;
-    justify-content: center; /* Centraliza verticalmente o conteúdo */
+    justify-content: center;
     align-items: center;
 }
 
 .coluna {
     width: auto;
-    min-width: 320px; /* Aumenta um pouco para acomodar os botões maiores */
+    min-width: 320px; 
     background-color: rgba(68, 68, 68, 0.3);
-    padding: 20px; /* Mais espaço interno */
+    padding: 20px; 
     border-radius: 10px;
     position: absolute;
     top: 50%;
